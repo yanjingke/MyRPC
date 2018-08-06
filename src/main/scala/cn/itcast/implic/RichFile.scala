@@ -10,7 +10,7 @@ class RichFile (val f:File){
 object RichFile{
   def main(args: Array[String]): Unit = {
     val f = new File("c://words.txt")
-    val contents =     f.read();
+    val contents = f.read();
     println(contents)
   }
 }
